@@ -1,0 +1,112 @@
+* {
+   font-family: 'Times New Roman', Times, serif;
+}
+
+.bg-light {
+   font-size: 12px;
+   position: fixed;
+   width: 100%;
+   height: 50px;
+   top: 0;
+   z-index: 10; /* Ensures the navbar is on top */
+}
+
+.wrapper {
+   position: relative; /* Change to relative */
+   height: 360px;
+   width: 100%;
+   overflow: hidden;
+   background: rgb(249, 248, 248);
+   margin-top: -5px;
+}
+
+.box div {
+   position: absolute;
+   width: 60px;
+   height: 60px;
+   background-color: transparent;
+   border: 6px solid rgb(248, 225, 225);
+}
+
+.box div:nth-child(1) { top: 12%; left: 10%; animation: animate 10s linear infinite; }
+.box div:nth-child(2) { top: 70%; left: 10%; animation: animate 8s linear infinite; }
+.box div:nth-child(3) { top: 15%; left: 40%; animation: animate 11s linear infinite; }
+.box div:nth-child(4) { top: 18%; left: 75%; animation: animate 9s linear infinite; }
+.box div:nth-child(5) { top: 15%; left: 90%; animation: animate 8s linear infinite; }
+.box div:nth-child(6) { top: 75%; left: 20%; animation: animate 12s linear infinite; }
+.box div:nth-child(7) { top: 72%; left: 35%; animation: animate 11s linear infinite; }
+.box div:nth-child(8) { top: 65%; left: 60%; animation: animate 9s linear infinite; }
+.box div:nth-child(9) { top: 70%; left: 80%; animation: animate 8s linear infinite; }
+.box div:nth-child(10) { top: 80%; left: 90%; animation: animate 7s linear infinite; }
+
+@keyframes animate {
+   0% { transform: scale(0) translateY(0) rotate(0); opacity: 1; }
+   100% { transform: scale(1.3) translateY(-90px) rotate(360deg); opacity: 0; }
+}
+
+.slider {
+   height: 200px;
+   width: 220px;
+}
+
+/* Position controls at the far left and right of the screen */
+.custom-control {
+   position: fixed;
+   top: 50%; /* Center vertically */
+   transform: translateY(-50%); 
+   z-index: 1000;
+   width: 50px;
+}
+
+.carousel-control-prev.custom-control {
+   left: 20px; 
+}
+
+.carousel-control-next.custom-control {
+   right: 20px; 
+}
+
+.carousel-item {
+   transition: transform 0.8s ease-in-out, opacity 0.8s ease-in-out;
+}
+
+.client {
+   height: 50px;
+   width: 80px;
+   
+}
+
+/* //for clients */
+
+.client-slider-wrapper {
+   overflow: hidden; /* Hide the part of the images that are out of the container */
+   width: 100%; /* Full width container */
+   position: relative;
+}
+
+.client-slider {
+   display: flex;
+   animation: slide 30s linear infinite; /* Sliding effect */
+}
+
+
+/* Keyframes for sliding effect from right to left */
+@keyframes slide {
+   0% {
+       transform: translateX(0);
+   }
+   100% {
+       transform: translateX(-100%);
+   }
+}
+
+.experience {
+   height: 180px;
+   width: 220px;
+}
+
+
+
+
+
+

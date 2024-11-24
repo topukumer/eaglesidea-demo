@@ -1,0 +1,351 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Eaglesidea Ltd</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light shadow-sm p-3 mb-2 bg-white rounded">
+        <div class="container-fluid">
+            <!-- Left: Logo -->
+            <a class="navbar-brand" href="#">
+                <img src="/images/eaglesidea.png" alt="Eagles Idea" width="160" height="30"
+                    class="d-inline-block align-text-top">
+            </a>
+
+            <!-- Mobile Toggler -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent"
+                aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Collapsible Navbar Content (Links and Search Bar) -->
+            <div class="collapse navbar-collapse justify-content-between" id="navbarContent">
+                <!-- Center: Navbar Links -->
+                <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link text-uppercase fw-semibold" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-uppercase fw-semibold" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-uppercase fw-semibold" href="#">Solutions</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-uppercase fw-semibold" href="#">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-uppercase fw-semibold" href="#">Alliance</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-uppercase fw-semibold" href="#">Contact</a>
+                    </li>
+                </ul>
+
+                <!-- Right: Search Bar -->
+                <form class="d-flex m-0 p-0" role="search">
+                    <input class="form-control me-2 border-0 rounded-pill shadow-sm" type="search"
+                        placeholder="Type here to search" aria-label="Search">
+                    <button class="btn btn-success rounded-pill shadow-sm" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <div class="wrapper">
+        <div class="box">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+
+        <!-- Centered Carousel Content -->
+        <div id="contentCarousel" class="carousel slide position-absolute top-50 start-50 translate-middle col-8"
+            data-bs-ride="carousel" data-bs-interval="3000">
+            <div class="carousel-inner">
+                <!-- Slide 1 -->
+                <div class="carousel-item active">
+                    <div class="d-flex p-3 justify-content-center align-items-center">
+                        <div>
+                            <h3>QA As a Service</h3>
+                            <p>EaglesIdea helps you deliver quality software and provide your end customers with the
+                                best experience.
+                                We are high achievers who make sure your product works perfectly and improves your
+                                customer’s life.
+                            </p>
+                        </div>
+                        <div class="ms-3">
+                            <img src="images/IT-QA.jpg" alt="QA services" class="slider rounded" style="width: 200px;">
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Slide 2 -->
+                <div class="carousel-item">
+                    <div class="d-flex p-3 justify-content-center align-items-center">
+                        <div>
+                            <h3>IT AUDIT</h3>
+                            <p>We believe in "Auditing in not policing". Our expert team will assist you to find out the
+                                gap and way to improving.</p>
+                        </div>
+                        <div class="ms-3">
+                            <img src="images/IT-audit.jpg" alt="IT audit" class="slider rounded" style="width: 200px;">
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Slide 3 -->
+                <div class="carousel-item">
+                    <div class="d-flex p-3 justify-content-center align-items-center">
+                        <div>
+                            <h3>WEB DEVELOPMENT</h3>
+                            <p>We develop premier class web applications for enterprise customers.</p>
+                        </div>
+                        <div class="ms-3">
+                            <img src="images/web-dev.jpg" alt="Web development" class="slider rounded"
+                                style="width: 200px;">
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Slide 4 -->
+                <div class="carousel-item">
+                    <div class="d-flex p-3 justify-content-center align-items-center">
+                        <div>
+                            <h3>VAPT</h3>
+                            <p>We provide a broad range of security testing services to identify and help address
+                                cybersecurity exposures.</p>
+                        </div>
+                        <div class="ms-3">
+                            <img src="images/vapt.jpg" alt="VAPT" class="slider rounded" style="width: 200px;">
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- Carousel controls positioned outside of content div -->
+        <button class="carousel-control-prev custom-control" type="button" data-bs-target="#contentCarousel"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next custom-control" type="button" data-bs-target="#contentCarousel"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+
+    </div>
+
+    <div class="container py-5">
+        <!-- Centered Header -->
+        <div class="text-center mb-4">
+            <h3>Our Clients</h3>
+        </div>
+
+        <!-- Client Images Slider -->
+        <div class="client-slider-wrapper">
+            <div class="client-slider gap-5">
+                <img src="images/duronto.png" alt="Duronto" class="client">
+                <img src="images/dhakabank.png" alt="Dhaka Bank" class="client">
+                <img src="images/citizenbank.png" alt="Citizen Bank" class="client">
+                <img src="images/ipdc.png" alt="IPDC" class="client">
+                <img src="images/rakub.jpg" alt="RAKUB" class="client">
+                <img src="images/nabil.jpg" alt="Nabil" class="client">
+                <img src="images/pathao.png" alt="Pathao" class="client">
+                <img src="images/neiman.png" alt="Neiman" class="client">
+                <img src="images/transpay.png" alt="Transpay" class="client">
+                <img src="images/cloudwell.jpg" alt="Cloudwell" class="client">
+                <img src="images/rimi.jpg" alt="Rimi" class="client">
+                <img src="images/akij.jpg" alt="Akij" class="client">
+                <img src="images/biman.png" alt="Biman" class="client">
+            </div>
+        </div>
+    </div>
+
+    <!-- <div class="container2 py-3 d-flex justify-content-center align-items-center">
+        <div class="col-md-6 text-center">
+            <h3>Empowering Digital Transformation</h3>
+            <p class="pt-1">
+                At EaglesIdea, we’re committed to driving innovation and excellence in the digital age. Our mission is to empower 
+                businesses with top-tier technology solutions, providing the tools they need to grow, compete, and thrive. Through 
+                comprehensive web development, robust security services, and expert quality assurance, we ensure that every client 
+                achieves their digital goals with confidence and efficiency. Trust EaglesIdea to be your partner in building a smarter, 
+                safer, and more dynamic digital future.
+            </p>
+        </div>
+    </div> -->
+
+
+    <div class="container2 py-3 d-flex justify-content-center align-items-center">
+        <div class="col-md-6 text-center">
+            <h3>We run all kinds of IT services that<br> vow your success</h3>
+            <div class="d-flex">
+                <div class="p-3">
+                    <img src="images/experience.png" alt="" class="experience rounded">
+                </div>
+                <div>
+                    <p class="p-3">
+                        EaglesIdea specializes in technological and IT-related services such as product engineering,
+                        warranty management, building cloud, infrastructure, network, etc. We put a strong focus
+                        on the needs of your business to figure out solutions that best fits your demand and nail it.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container py-5">
+        <div class="row gap-4 justify-content-center">
+            <!-- Box 1 -->
+            <div class="col-lg-3 col-md-4 col-sm-6 text-center card-box shadow-sm">
+                <img src="images/quality-assurance.jpg" alt="Quality Assurance"
+                    class="img-fluid card-img-top rounded-top">
+                <div class="card-body">
+                    <h5 class="card-title p-2">Quality Assurance System</h5>
+                    <p class="card-text small">At EaglesIdea, we have a holistic and integrated approach towards core
+                        modernization to experience technological evolution.</p>
+                    <a href="#" class="btn-link text-primary">Discover now →</a>
+                </div>
+            </div>
+
+            <!-- Box 2 -->
+            <div class="col-lg-3 col-md-4 col-sm-6 text-center card-box shadow-sm">
+                <img src="images/it-professional.jpg" alt="Highly Professional Staff"
+                    class="img-fluid card-img-top rounded-top">
+                <div class="card-body">
+                    <h5 class="card-title p-2">Highly Professional Staff</h5>
+                    <p class="card-text small">Having obtained official training in IT and technical fields, our staff
+                        knows the best solutions.</p>
+                    <a href="#" class="btn-link text-primary">Discover now →</a>
+                </div>
+            </div>
+
+            <!-- Box 3 -->
+            <div class="col-lg-3 col-md-4 col-sm-6 text-center card-box shadow-sm">
+                <img src="images/security-management.jpg" alt="Info Security Management"
+                    class="img-fluid card-img-top rounded-top">
+                <div class="card-body">
+                    <h5 class="card-title p-2">Info Security Management</h5>
+                    <p class="card-text small">At EaglesIdea, we have a holistic and integrated approach towards core
+                        modernization for technological evolution.</p>
+                    <a href="#" class="btn-link text-primary">Discover now →</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <div class="container py-5">
+        <!-- Centered Header -->
+        <div class="text-center mb-4">
+            <h3>Our Partners</h3>
+        </div>
+
+        <!-- Client Images Slider -->
+        <div class="client-slider-wrapper">
+            <div class="client-slider gap-5">
+                <img src="images/kaspersky.png" alt="Kaspersky" class="client">
+                <img src="images/aws.png" alt="AWS" class="client">
+                <img src="images/microsoft.png" alt="Microsoft" class="client">
+                <img src="images/sophos.png" alt="Sophos" class="client">
+                <img src="images/kaspersky.png" alt="Kaspersky" class="client">
+                <img src="images/aws.png" alt="AWS" class="client">
+                <img src="images/microsoft.png" alt="Microsoft" class="client">
+                <img src="images/sophos.png" alt="Sophos" class="client">
+                <img src="images/kaspersky.png" alt="Kaspersky" class="client">
+                <img src="images/aws.png" alt="AWS" class="client">
+                <img src="images/microsoft.png" alt="Microsoft" class="client">
+                <img src="images/sophos.png" alt="Sophos" class="client">
+            </div>
+        </div>
+    </div>
+
+    <div class="container py-4">
+        <div class="text-center mb-4">
+            <h3>Reach out to the world’s most <br>
+                reliable IT services.</h3>
+        </div>
+        <div class="d-flex flex-column">
+            <div class="row gap-4 justify-content-center">
+            <!-- Box 1 -->
+            <div class="col-lg-3 col-md-4 col-sm-6 text-center card-box shadow-sm">
+                <div class="card-body m-2">
+                    <h5 class="card-title p-2">IT Design</h5>
+                    <p class="card-text small">We provide the most responsive and functional IT design for companies and businesses worldwide.</p>
+                </div>
+            </div>
+
+            <!-- Box 2 -->
+            <div class="col-lg-3 col-md-4 col-sm-6 text-center card-box shadow-sm">
+                <div class="card-body m-2">
+                    <h5 class="card-title p-2">IT Management</h5>
+                    <p class="card-text small">It’s possible to simultaneously manage and transform information from one server to another.</p>
+
+                </div>
+            </div>
+
+            <!-- Box 3 -->
+            <div class="col-lg-3 col-md-4 col-sm-6 text-center card-box shadow-sm">
+                <div class="card-body m-2">
+                    <h5 class="card-title p-2">Data Security</h5>
+                    <p class="card-text small">We provide the most responsive and functional IT design for companies and businesses worldwide.</p>
+
+                </div>
+            </div>
+        </div>
+        <div class="row gap-4 justify-content-center mt-2">
+            <!-- Box 1 -->
+            <div class="col-lg-3 col-md-4 col-sm-6 text-center card-box shadow-sm">
+                <div class="card-body m-2">
+                    <h5 class="card-title p-2">Business Reform</h5>
+                    <p class="card-text small">We provide the most responsive and functional IT design for companies and businesses worldwide.</p>
+                </div>
+            </div>
+
+            <!-- Box 2 -->
+            <div class="col-lg-3 col-md-4 col-sm-6 text-center card-box shadow-sm">
+                <div class="card-body m-2">
+                    <h5 class="card-title p-2">Infrastructure Plan</h5>
+                    <p class="card-text small">We provide the most responsive and functional IT design for companies and businesses worldwide.</p>
+                </div>
+            </div>
+
+            <!-- Box 3 -->
+            <div class="col-lg-3 col-md-4 col-sm-6 text-center card-box shadow-sm">
+                <div class="card-body m-2">
+                    <h5 class="card-title p-2">Firewall Advance</h5>
+                    <p class="card-text small">We provide the most responsive and functional IT design for companies and businesses worldwide.</p>
+                </div>
+            </div>
+        </div>
+        </div>
+    </div>
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
